@@ -1,0 +1,22 @@
+.todoTrue {
+  margin: 10px 10px 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+}
+.todoFalse {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+.titleText {
+  color: black;
+}
+.textElement {
+  color: black;
+}
