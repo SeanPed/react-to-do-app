@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
-import styles from './App.module.css';
+import Title from './components/Title/Title';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App(): JSX.Element {
   const [count, setCount] = useState<number>(0);
 
   return (
-    <BrowserRouter>
+    <Title>To-Do-List</Title>
+    /*<BrowserRouter>
       <div className={styles.App}>
         <header className={styles['App-header']}>
           <img src={logo} className={styles['App-logo']} alt="logo" />
@@ -49,7 +49,7 @@ function App(): JSX.Element {
           </Switch>
         </header>
       </div>
-    </BrowserRouter>
+    </BrowserRouter>*/
   );
 }
 
